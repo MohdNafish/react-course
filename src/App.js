@@ -1,5 +1,6 @@
 import React from "react";
 import ExpenseItem from "./components/Expenses/ExpenseItem";
+import NewExpense from "./components/NewExpence/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
   ];
   return (
     <div className="App">
+    <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
